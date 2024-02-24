@@ -1,0 +1,82 @@
+.quote-container p {
+  display: inline;
+  padding: 0% 2.5rem 0% 2.5rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+.quote {
+  font-size: 25px;
+  text-align: center;
+}
+.author {
+  font-size: 20px;
+  text-align: left;
+}
+.quote-container {
+  background: #ffddd3;
+  box-shadow: 0 1px 8px 0 rgba(46, 38, 135, 0.37);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 60%;
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .quote-container {
+    width: 85%;
+    margin-top: 0;
+    height: 55%;
+  }
+  .quote-container p {
+    padding: 0% 1.5rem 0% 1.5rem;
+    width: 100%;
+  }
+
+  .quote {
+    font-size: 25px;
+  }
+  .author {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .quote-container {
+    width: 85%;
+    margin-top: 0;
+    height: 55%;
+  }
+  .quote-container p {
+    padding: 0% 1.5rem 0% 1.5rem;
+    width: 100%;
+  }
+
+  .quote {
+    font-size: 25px;
+  }
+  .author {
+    font-size: 15px;
+  }
+}
+/* @media only screen and (min-width: 600px) and (max-width: 1400px) {
+  .quote-container {
+    width: 85%;
+    margin-top: 0;
+    height: 55%;
+  }
+  .quote-container p {
+    padding: 0% 1.5rem 0% 1.5rem;
+    width: 100%;
+  }
+
+  .quote {
+    font-size: 25px;
+  }
+  .author {
+    font-size: 15px;
+  }
+} */

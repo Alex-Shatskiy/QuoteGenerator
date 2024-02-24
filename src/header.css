@@ -1,0 +1,46 @@
+.header-container {
+  background: #ffddd3;
+  box-shadow: 0 1px 8px 0 rgba(46, 38, 135, 0.37);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 28vw;
+}
+.header-container h1 {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.header-container p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-container {
+    width: 85%;
+    margin-top: 0;
+    height: 15%;
+  }
+  .header-container h1 {
+    font-size: 30px;
+  }
+
+  .header-container p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1400px) {
+  .header-container {
+    width: 85%;
+    height: 20%;
+  }
+  .header-container h1 {
+    font-size: 40px;
+  }
+  .header-container p {
+    font-size: 20px;
+  }
+}
