@@ -17,7 +17,7 @@ function GenerateQuote({ setQuote }) {
   return (
     <div className="button-container">
       <button role="button" onClick={() => generateAQuote(setQuote, apiURL)}>
-        Generate me a quote
+        Quote Me!
       </button>
     </div>
   )
